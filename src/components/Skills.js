@@ -1,6 +1,13 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import tl from "../assets/img/tailwindcss.jpg";
+import nextj from "../assets/img/nextjs.png";
+import tailwind from "../assets/img/tailwindcss.jpg";
+import tp from "../assets/img/typescript.png";
+import rel from "../assets/img/redux logo.png";
+import nodej from "../assets/img/nodejs.png";
+import cl from "../assets/img/cl.png";
+import al from "../assets/img/al.png";
+import cil from "../assets/img/cil.jpg";
+import reactl from "../assets/img/reactl.jpg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -38,39 +45,39 @@ export const Skills = () => {
                         <p> </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={rel} alt="Image" />
                                 <h5>Redux</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={nextj} alt="Image" />
                                 <h5>NextJS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={tp} alt="Image" />
                                 <h5>TypeScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={nodej} alt="Image" />
                                 <h5>NodeJS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={tl} alt="Image" />
                                 <h5>Tailwind</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={rel} alt="Image" />
                                 <h5>ReactJS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={al} alt="Image" />
                                 <h5>Angular</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={cl} alt="Image" />
                                 <h5>C++</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={cil} alt="Image" />
                                 <h5>CI/CD</h5>
                             </div>
                         </Carousel>

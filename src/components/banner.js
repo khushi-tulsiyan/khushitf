@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/bannerbg2.jpg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -55,12 +55,12 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
+                <span className="tagline">Welcome!</span>
                 <h1>{`Hi! I'm Khushi Tulsiyan`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "ML Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>A dedicated web developer with a strong proficiency in Frontend Development and a specialization in Machine Learning. I bring a unique blend of creativity and technical expertise to every project I undertake. Whether I'm designing intuitive user interfaces or integrating advanced machine learning algorithms, my goal is to deliver innovative and efficient solutions. 
                     Explore my work to see how I combine the art of design with the power of technology to create exceptional web experiences.
 </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => console.log('connect')}>Connect with me!<ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
