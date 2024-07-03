@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "../assets/img/Woman with Glasses Illustration Logo Template.jpg";
+import logo from "../assets/img/Woman with Glasses Illustration Logo Template.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/email.png";
 import navIcon3 from "../assets/img/fiverr.png";

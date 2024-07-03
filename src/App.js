@@ -1,4 +1,4 @@
-import logo from './assets/img/Woman with Glasses Illustration Logo Template.jpg';
+import logo from './assets/img/Woman with Glasses Illustration Logo Template.png';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/navbar";

@@ -6,8 +6,7 @@ import TrackVisibility from 'react-on-screen';
 
 export const Contact = () => {
   const formInitialDetails = {
-    firstName: '',
-    lastName: '',
+    Name: '',
     email: '',
     phone: '',
     message: ''
