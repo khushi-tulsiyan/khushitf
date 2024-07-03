@@ -60,7 +60,7 @@ export const Banner = () => {
                   <p>A dedicated web developer with a strong proficiency in Frontend Development and a specialization in Machine Learning. I bring a unique blend of creativity and technical expertise to every project I undertake. Whether I'm designing intuitive user interfaces or integrating advanced machine learning algorithms, my goal is to deliver innovative and efficient solutions. 
                     Explore my work to see how I combine the art of design with the power of technology to create exceptional web experiences.
 </p>
-                  <button onClick={() => "https://drive.google.com/file/d/1mA6_CiG76lJRxOLPAyX9b0sJzzy7CP2A/view?usp=drive_link"}>Hire Me!<ArrowRightCircle size={25} /></button>
+                  <button onClick={() => console.log("https://drive.google.com/file/d/1mA6_CiG76lJRxOLPAyX9b0sJzzy7CP2A/view?usp=drive_link")}>Hire Me!<ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
