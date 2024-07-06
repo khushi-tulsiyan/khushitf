@@ -41,9 +41,9 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
-                <p>These are the few of the projects that I made.</p>
+                <h3> <center>A few things that I made :)</center></h3>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                  <p></p>
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Try em out!</Nav.Link>
@@ -70,8 +70,15 @@ export const Projects = () => {
                     <Tab.Pane eventKey="section">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                    <Col>
+                    <ul>
+                    <li> I prioritize clarity and timeliness in all interactions. Understanding your vision, addressing concerns promptly and providing regular updates.</li>
+                    <li> As a freelancer, I can offer the utmost flexibility to my clients to meet their needs, allowing them to focus on other important aspects of their business.</li>
+                    </ul>
+
+                    </Col>
+                    
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
