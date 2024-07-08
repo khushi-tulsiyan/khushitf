@@ -469,6 +469,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+.multicolumn-container{
+background: whitesmoke;
+padding: 20px;
+border-end-start-radius: 10px;
+text-align: left;
+margin: 10px;
+}
+.my-grid{
+display: grid;
+grid-template-columns: repeat(3, 1frs);
+}
 
 /************ Projects Css ************/
 .contact {

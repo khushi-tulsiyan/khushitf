@@ -71,13 +71,15 @@ export const Projects = () => {
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                    <Col>
-                    <ul>
-                    <li> I prioritize clarity and timeliness in all interactions. Understanding your vision, addressing concerns promptly and providing regular updates.</li>
-                    <li> As a freelancer, I can offer the utmost flexibility to my clients to meet their needs, allowing them to focus on other important aspects of their business.</li>
-                    </ul>
-
-                    </Col>
+                    <div className="my-grid">
+                      <div className="multicolumn-container">
+                        <img url = "../assets/img/flexicon.png" alt='flexicon'/>
+                        <p>I prioritize clarity and timeliness in all interactions. Understanding your vision, addressing concerns promptly and providing regular updates.</p>
+                      </div>
+                      <div className="multicolumn-container"></div>
+                      <p>As a freelancer, I can offer the utmost flexibility to my clients to meet their needs, allowing them to focus on other important aspects of their business.</p>
+                      <div className="multicolumn-container"></div>
+                    </div>
                     
                     </Tab.Pane>
                   </Tab.Content>
