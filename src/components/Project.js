@@ -14,22 +14,25 @@ export const Projects = () => {
       title: "Dermatological Disease Detector",
       description: "Development & Research",
       imgUrl: projImg1,
+      onclick: "https://github.com/somebody-usual/Dermatological-Disease-Detector"
     },
     {
       title: "Hotel System",
       description: "Machine Learning and development",
       imgUrl: projImg2,
+      onclick: "https://github.com/somebody-usual/Hotel-System"
     },
     {
       title: "Human Emotion Detector",
       description: "Machine Learning and development",
       imgUrl: projImg2,
+      onclick:"https://github.com/somebody-usual/Human-emotion-Detector"
     },
     {
       title: "Github Finder Web-App",
       description: "Design & Development",
-      imgUrl: projImg3,
-      href: 'https://github.com/somebody-usual/github-finder',
+      imgUrl: projImg3, 
+      onclick : 'https://github.com/somebody-usual/github-finder',
     },
     
   ];
