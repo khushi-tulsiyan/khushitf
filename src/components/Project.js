@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg3 from "../assets/img/projectimg1.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -29,6 +29,7 @@ export const Projects = () => {
       title: "Github Finder Web-App",
       description: "Design & Development",
       imgUrl: projImg3,
+      href: 'https://github.com/somebody-usual/github-finder',
     },
     
   ];
@@ -73,7 +74,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                     <div className="my-grid">
                       <div className="multicolumn-container">
-                        <img url = "../assets/img/flexicon.png" alt='flexicon'/>
+                        
                         <p>I prioritize clarity and timeliness in all interactions. Understanding your vision, addressing concerns promptly and providing regular updates.</p>
                       </div>
                       <div className="multicolumn-container"></div>

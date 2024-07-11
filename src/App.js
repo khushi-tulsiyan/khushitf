@@ -6,6 +6,7 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Project";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
