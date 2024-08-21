@@ -55,7 +55,7 @@ export const NavBar = () => {
                 <a href="mailto:khushitulsiyan495@gmail.com"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.fiverr.com/s/99G091d"><img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink to='https://drive.google.com/file/d/1r7VdM9ukc7gIT9UfJWULDZCAjTXp3i0P/view?usp=drive_link'>
+              <HashLink to='https://drive.google.com/file/d/1qCBsSxbUGOd0pujTNqUb3MEntuRFURRu/view?usp=drive_link'>
                 <button className="vvd"><span>Hire Me!</span></button>
               </HashLink>
             </span>
