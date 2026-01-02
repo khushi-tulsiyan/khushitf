@@ -7,6 +7,7 @@ import { Projects } from "./components/Project";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <SpeedInsights />
     </div>
   );
 }
